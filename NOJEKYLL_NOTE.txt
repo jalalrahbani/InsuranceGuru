@@ -1,0 +1,4 @@
+The .nojekyll file is intentionally hidden and may not appear on your computer.
+It is included in this package. If GitHub does not show it after upload, create a new file in GitHub named exactly:
+.nojekyll
+The file can be empty.

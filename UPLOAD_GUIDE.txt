@@ -1,0 +1,25 @@
+UPLOAD GUIDE - JALAL INSURANCE BROKER PRICING TOOL
+
+Upload the CONTENTS of this folder to the ROOT of your GitHub repository.
+
+Required structure:
+
+index.html
+styles.css
+script.js
+README.md
+UPLOAD_GUIDE.txt
+.nojekyll
+assets/
+  jalal-profile-cutout.png
+  blinq-business-card-qr.png
+
+Important:
+- Do not upload the ZIP itself to GitHub Pages.
+- Do not upload the outer folder only.
+- The assets folder must remain named exactly: assets
+- The profile picture must remain: assets/jalal-profile-cutout.png
+- The QR image must remain: assets/blinq-business-card-qr.png
+- If .nojekyll is hidden on your computer, it is still included in the ZIP.
+
+After upload, index.html must be visible directly on the repository main page.

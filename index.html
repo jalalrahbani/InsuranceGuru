@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jalal Insurance Broker | Pricing Tool</title>
+  <meta name="description" content="Public insurance pricing assistant by Jalal Insurance Broker for medical, motor, travel, school liability, site works, expat, and lift liability quotations." />
+  <meta name="theme-color" content="#0b1f3a" />
+  <link rel="preconnect" href="https://wa.me" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#home" class="brand" aria-label="Jalal Insurance Broker home">
+        <span class="brand-mark">J</span>
+        <span class="brand-copy">
+          <strong>Jalal Insurance Broker</strong>
+          <small>Indicative insurance pricing assistant</small>
+        </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#medical">Medical</a>
+        <a href="#motor">Motor</a>
+        <a href="#travel">Travel</a>
+        <a href="#school">School</a>
+        <a href="#site-works">Site Works</a>
+        <a href="#expat">Expat</a>
+        <a href="#lift">Lift</a>
+        <a href="#connect">Connect</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Instant estimates · Direct WhatsApp support</p>
+        <h1>Get an insurance quote in minutes, then let Jalal handle the next steps.</h1>
+        <p class="hero-text">Choose the product, enter the key details, see an indicative premium, and send a complete quote request directly to WhatsApp without back-and-forth.</p>
+        <div class="hero-actions">
+          <a class="btn primary pulse-cta" href="#products">Get My Quote Now</a>
+          <a class="btn secondary" id="quickWhatsapp" href="#">Speak to Jalal</a>
+        </div>
+        <div class="trust-row" aria-label="Highlights">
+          <span>60-second quote flow</span>
+          <span>No data stored</span>
+          <span>WhatsApp-ready request</span>
+          <span>Motor V17 updated</span>
+        </div>
+      </div>
+      <aside class="hero-showcase" aria-label="Professional portrait of Jalal">
+        <div class="showcase-chip">Your trusted broker</div>
+        <div class="portrait-stage">
+          <div class="portrait-ring"></div>
+          <div class="portrait-ring ring-two"></div>
+          <img src="assets/jalal-profile-cutout.png" alt="Professional portrait of Jalal wearing a blue suit" class="portrait-image" />
+        </div>
+        <div class="showcase-copy">
+          <h2>Meet Jalal</h2>
+          <p>Fast follow-up, clear guidance, and a personal point of contact from quote to issuance.</p>
+        </div>
+      </aside>
+
+      <aside id="connect" class="hero-panel business-panel" aria-label="Digital business card and quote workflow">
+        <div class="panel-badge">Connect instantly</div>
+        <h2>Tap the card. Scan the QR. Save the contact.</h2>
+        <p class="panel-text">Use Jalal’s digital business card for a polished, mobile-friendly way to connect and continue the quote process.</p>
+        <div class="business-card-shell">
+          <div class="business-card-accent"></div>
+          <div class="business-card-top">
+            <div class="business-avatar">J</div>
+            <div>
+              <strong>Jalal Insurance Broker</strong>
+              <small>Quotes • Renewals • Insurance Support</small>
+            </div>
+          </div>
+          <div class="business-card-body">
+            <div class="qr-wrap">
+              <img src="assets/blinq-business-card-qr.png" alt="QR code to open Jalal's digital business card" class="qr-image" />
+            </div>
+            <div class="business-card-meta">
+              <p>Open Jalal’s digital card, save the contact, and share it easily.</p>
+              <div class="business-card-actions">
+                <a class="btn primary" href="https://s.blinq.me/cmlzlb6xp0t7os60n2a0j8jrg" target="_blank" rel="noopener">Open Digital Card</a>
+                <a class="btn secondary panel-btn" href="https://wa.me/9613763181" target="_blank" rel="noopener">Message on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="workflow-mini">
+          <h3>How it works</h3>
+          <ol class="workflow-list compact">
+            <li><span>01</span><p>Select the insurance product.</p></li>
+            <li><span>02</span><p>Fill in the required quote details.</p></li>
+            <li><span>03</span><p>Review the estimated premium.</p></li>
+            <li><span>04</span><p>Send everything to WhatsApp.</p></li>
+          </ol>
+        </div>
+      </aside>
+    </section>
+
+
+    <section class="conversion-strip section-slim" aria-label="Why clients use this quote tool">
+      <div class="conversion-item">
+        <strong>1</strong>
+        <span>Select product</span>
+      </div>
+      <div class="conversion-item">
+        <strong>2</strong>
+        <span>Enter details</span>
+      </div>
+      <div class="conversion-item">
+        <strong>3</strong>
+        <span>Get estimate</span>
+      </div>
+      <div class="conversion-item highlight">
+        <strong>4</strong>
+        <span>Send to WhatsApp</span>
+      </div>
+    </section>
+
+    <section class="notice-band section-slim" aria-label="Important disclaimer">
+      <strong>Important:</strong> Premiums are indicative and subject to underwriting approval, document verification, policy terms, exclusions, inspections where required, and final confirmation before issuance.
+    </section>
+
+    <section class="ad-slot wide" aria-label="Advertisement placeholder">
+      <span>Advertisement Space</span>
+      <small>Reserved for future visitor ads or partner banners</small>
+    </section>
+
+    <section id="products" class="section products-section">
+      <div class="section-heading centered">
+        <p class="eyebrow">Product calculators</p>
+        <h2>Choose your insurance quote</h2>
+        <p>Start with the product you need. Each calculator is designed to collect the right details and prepare a clean WhatsApp request.</p>
+      </div>
+      <div class="product-grid">
+        <a class="product-card medical-card" href="#medical"><span>✚</span><h3>Medical Insurance</h3><p>Panacea, HDF Santé, Abroad, Co-CFE.</p></a>
+        <a class="product-card motor-card" href="#motor"><span>🚗</span><h3>Motor Insurance</h3><p>All Risks, Total Loss, TPL, optional covers.</p></a>
+        <a class="product-card travel-card" href="#travel"><span>✈</span><h3>Travel Insurance</h3><p>Inbound and outbound travel quotes.</p></a>
+        <a class="product-card school-card" href="#school"><span>🏫</span><h3>School Liability</h3><p>Students, teachers, and school activities.</p></a>
+        <a class="product-card site-card" href="#site-works"><span>🏗</span><h3>Site Works</h3><p>Renovation, construction, WCA and TPL.</p></a>
+        <a class="product-card expat-card" href="#expat"><span>🌍</span><h3>Expat Insurance</h3><p>Standard and medical expense options.</p></a>
+        <a class="product-card lift-card" href="#lift"><span>↕</span><h3>Lift Liability</h3><p>Elevator TPL limits and premiums.</p></a>
+        <a class="product-card other-card" href="#general"><span>?</span><h3>Other Products</h3><p>Request a manual quote on WhatsApp.</p></a>
+      </div>
+
+      <div class="products-cta">
+        <div>
+          <strong>Not sure which product fits?</strong>
+          <span>Send a manual request and Jalal will guide you.</span>
+        </div>
+        <a class="btn primary" href="#general">Ask for Guidance</a>
+      </div>
+    </section>
+
+    <section id="medical" class="section calculator-section">
+      <div class="section-heading">
+        <p class="eyebrow">Medical</p>
+        <h2>Medical Insurance Calculator</h2>
+        <p>Indicative yearly premium based on age, plan, class, category, and ambulatory selection.</p>
+      </div>
+      <div class="calculator-card">
+        <form id="medicalForm" class="quote-form">
+          <div class="field"><label>Client full name</label><input name="clientName" type="text" placeholder="Example: Client Name" /></div>
+          <div class="field"><label>Age</label><input name="age" type="number" min="0" max="99" required placeholder="Example: 34" /></div>
+          <div class="field"><label>Plan</label><select name="plan" id="medicalPlan" required></select></div>
+          <div class="field"><label>Category</label><select name="category" id="medicalCategory" required></select></div>
+          <div class="field"><label>Hospital class</label><select name="hospitalClass" id="medicalClass" required></select></div>
+          <div class="field"><label>Ambulatory / out-hospital</label><select name="ambulatory" id="medicalAmbulatory" required></select></div>
+          <div class="field"><label>Previous insurance continuity?</label><select name="continuity"><option>No / Not available</option><option>Yes, continuity available</option></select></div>
+          <div class="field"><label>Declared medical condition?</label><select name="medicalCondition"><option>No declared condition</option><option>Yes, requires review</option></select></div>
+          <button class="btn primary" type="submit">Calculate Medical Quote</button>
+        </form>
+        <div id="medicalResult" class="result-box empty-state"><strong>Your quote will appear here.</strong><p>Fill the form and calculate to generate a WhatsApp-ready request.</p></div>
+      </div>
+    </section>
+
+    <section id="motor" class="section calculator-section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Motor</p>
+        <h2>Motor Insurance Calculator</h2>
+        <p>Private car All Risks, Total Loss, TPL, other vehicle TPL, compulsory premium, and selected add-ons. Motor pricing uses corrected Tariff V17 effective June 19, 2026.</p>
+      </div>
+      <div class="calculator-card">
+        <form id="motorForm" class="quote-form">
+          <div class="field"><label>Client full name</label><input name="clientName" type="text" placeholder="Example: Client Name" /></div>
+          <div class="field"><label>Vehicle make & model</label><input name="vehicle" type="text" required placeholder="Example: Toyota RAV4" /></div>
+          <div class="field"><label>Manufacturing year</label><input name="year" type="number" min="1980" max="2035" required placeholder="Example: 2022" /></div>
+          <div class="field"><label>Car value in USD</label><input name="value" type="number" min="0" required placeholder="Example: 32000" /></div>
+          <div class="field"><label>Motor product</label><select name="product" id="motorProduct" required><option value="allRisks">All Risks - Private Car</option><option value="totalLoss">Total Loss - Private Car</option><option value="tplPrivate">TPL - Private Car</option><option value="otherTpl">TPL - Other Vehicle</option></select></div>
+          <div class="field motor-all-risks"><label>All Risks plan</label><select name="plan"><option value="Platinum">Platinum</option><option value="Gold">Gold</option><option value="Silver">Silver</option></select></div>
+          <div class="field motor-tpl-private hidden"><label>Material Damage option</label><select name="tplOption"><option value="none">Bodily Injury only - $45</option><option value="1">Option 1 - $500,000 limit</option><option value="2">Option 2 - $750,000 limit</option><option value="3">Option 3 - $1,000,000 limit</option></select></div>
+          <div class="field motor-other-tpl hidden"><label>Other vehicle category</label><select name="otherVehicleType" id="otherVehicleType"><option value="miniVan">Mini Van</option><option value="cargoVan">Cargo Van</option><option value="pickupTruck">Private Pickup / Truck</option><option value="motorcycle">Motorcycle</option><option value="bus">Private Bus / Van / School Bus</option><option value="tractor">Tractor / Agricultural Equipment</option><option value="bulldozer">Bulldozer / Loader / Excavator</option><option value="mixer">Concrete Mixer / Pump</option></select></div>
+          <div class="field motor-other-tpl hidden"><label>Material Damage limit</label><select name="otherMaterialLimit"><option value="none">Bodily Injury only</option><option value="50000">$50,000</option><option value="100000">$100,000</option></select></div>
+          <div class="field motor-other-tpl hidden"><label>Total weight / passengers / cc</label><input name="otherMetric" type="number" min="0" placeholder="kg for trucks, passengers for buses, cc for motorcycle" /></div>
+          <div class="field"><label>Driver age</label><input name="driverAge" type="number" min="18" max="99" required placeholder="Example: 35" /></div>
+          <div class="field check-field"><label><input name="compulsory" type="checkbox" checked /> Add compulsory bodily injury premium $45 where applicable</label></div>
+          <div class="field check-field motor-all-risks"><label><input name="politicalViolence" type="checkbox" /> Add Political Violence</label></div>
+          <div class="field check-field motor-all-risks"><label><input name="film" type="checkbox" /> Add Film Protection</label></div>
+          <div class="field check-field motor-all-risks"><label><input name="vinyl" type="checkbox" /> Add Vinyl / Matte Paint loading</label></div>
+          <div class="field check-field"><label><input name="electricHybrid" type="checkbox" /> Electric or hybrid vehicle</label></div>
+          <button class="btn primary" type="submit">Calculate Motor Quote</button>
+        </form>
+        <div id="motorResult" class="result-box empty-state"><strong>Your quote will appear here.</strong><p>For All Risks, make sure the car value and manufacturing year are accurate.</p></div>
+      </div>
+    </section>
+
+    <section id="travel" class="section calculator-section">
+      <div class="section-heading">
+        <p class="eyebrow">Travel</p>
+        <h2>Travel Insurance Calculator</h2>
+        <p>Inbound to Lebanon or outbound from Lebanon, including age loading, sports loading, and group discounts where applicable.</p>
+      </div>
+      <div class="calculator-card">
+        <form id="travelForm" class="quote-form">
+          <div class="field"><label>Client / group name</label><input name="clientName" type="text" placeholder="Example: Client Name" /></div>
+          <div class="field"><label>Travel type</label><select name="type" id="travelType"><option value="outbound">Outbound - travelling from Lebanon</option><option value="inbound">Inbound - coming to Lebanon</option></select></div>
+          <div class="field"><label>Age</label><input name="age" type="number" min="0" max="99" required placeholder="Example: 42" /></div>
+          <div class="field"><label>Number of travellers</label><input name="travellers" type="number" min="1" value="1" required /></div>
+          <div class="field"><label>Duration option</label><select name="duration" id="travelDuration"></select></div>
+          <div class="field outbound-only"><label>Destination scope</label><select name="scope"><option value="wwExUSCanada">Worldwide excluding USA & Canada</option><option value="worldwide">Worldwide</option></select></div>
+          <div class="field"><label>Plan / limit</label><select name="plan" id="travelPlan"></select></div>
+          <div class="field outbound-only check-field"><label><input name="sports" type="checkbox" /> Includes sports activities</label></div>
+          <div class="field"><label>Destination / country</label><input name="destination" type="text" placeholder="Example: France" /></div>
+          <button class="btn primary" type="submit">Calculate Travel Quote</button>
+        </form>
+        <div id="travelResult" class="result-box empty-state"><strong>Your quote will appear here.</strong><p>Select inbound or outbound to load the correct tariff table.</p></div>
+      </div>
+    </section>
+
+    <section id="school" class="section calculator-section alt">
+      <div class="section-heading">
+        <p class="eyebrow">School Liability</p>
+        <h2>School Liability Calculator</h2>
+        <p>Premium per insured person with automatic minimum annual premium check.</p>
+      </div>
+      <div class="calculator-card">
+        <form id="schoolForm" class="quote-form">
+          <div class="field"><label>School / camp name</label><input name="schoolName" type="text" placeholder="Example: School Name" /></div>
+          <div class="field"><label>Number of students</label><input name="students" type="number" min="0" required placeholder="Example: 120" /></div>
+          <div class="field"><label>Number of teachers</label><input name="teachers" type="number" min="0" required placeholder="Example: 15" /></div>
+          <div class="field"><label>Option</label><select name="option"><option value="1">Option 1 - $4 per person</option><option value="2">Option 2 - $7 per person</option></select></div>
+          <button class="btn primary" type="submit">Calculate School Quote</button>
+        </form>
+        <div id="schoolResult" class="result-box empty-state"><strong>Your quote will appear here.</strong><p>Minimum annual premium is applied automatically.</p></div>
+      </div>
+    </section>
+
+    <section id="site-works" class="section calculator-section">
+      <div class="section-heading">
+        <p class="eyebrow">Site Works</p>
+        <h2>Renovation / Construction Works Calculator</h2>
+        <p>Workmen Compensation and Third Party Liability estimate for eligible standard cases.</p>
+      </div>
+      <div class="calculator-card">
+        <form id="siteForm" class="quote-form">
+          <div class="field"><label>Applicant name</label><input name="clientName" type="text" placeholder="Example: Client Name" /></div>
+          <div class="field"><label>Project description</label><input name="project" type="text" placeholder="Example: Apartment renovation" /></div>
+          <div class="field"><label>Work type</label><select name="workType" id="siteWorkType"><option value="renovationStandard">Renovation - apartment/villa/shop/office/warehouse</option><option value="renovationBuilding">Renovation - building</option><option value="construction">Construction / finishing works</option></select></div>
+          <div class="field"><label>Area in sqm</label><input name="area" type="number" min="1" required placeholder="Example: 180" /></div>
+          <div class="field"><label>Duration in months</label><select name="duration" id="siteDuration"></select></div>
+          <div class="field"><label>Works location type</label><select name="locationType"><option value="internal">Internal</option><option value="internalExternal">Internal & External</option></select></div>
+          <div class="field building-only hidden"><label>Building floors</label><select name="floors"><option value="3">Up to 3 floors</option><option value="6">Up to 6 floors</option><option value="10">Up to 10 floors</option><option value="above10">Above 10 floors - refer</option></select></div>
+          <div class="field check-field"><label><input name="swing" type="checkbox" /> Use of swing - add 20%</label></div>
+          <div class="field check-field"><label><input name="scaffolding" type="checkbox" /> Use of scaffolding</label></div>
+          <button class="btn primary" type="submit">Calculate Site Works Quote</button>
+        </form>
+        <div id="siteResult" class="result-box empty-state"><strong>Your quote will appear here.</strong><p>Complex works may need underwriting review.</p></div>
+      </div>
+    </section>
+
+    <section id="expat" class="section calculator-section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Expat</p>
+        <h2>Expat Insurance Calculator</h2>
+        <p>Standard expat medical expense options with optional outpatient rider.</p>
+      </div>
+      <div class="calculator-card">
+        <form id="expatForm" class="quote-form">
+          <div class="field"><label>Expat full name</label><input name="clientName" type="text" placeholder="Example: Client Name" /></div>
+          <div class="field"><label>Age</label><input name="age" type="number" min="0" max="99" required placeholder="Example: 32" /></div>
+          <div class="field"><label>Gender</label><select name="gender"><option value="female">Female</option><option value="male">Male</option></select></div>
+          <div class="field"><label>Plan</label><select name="plan" id="expatPlan"><option value="standard">Option 1 - Standard Plan $23,500</option><option value="expat75">Option 2 - Expat Plan $75,000</option></select></div>
+          <div class="field standard-only"><label>Network</label><select name="network"><option value="limited">Limited Network</option><option value="full">Full Network</option></select></div>
+          <div class="field check-field"><label><input name="rider" type="checkbox" /> Add outpatient rider - 4 transactions at 85%</label></div>
+          <button class="btn primary" type="submit">Calculate Expat Quote</button>
+        </form>
+        <div id="expatResult" class="result-box empty-state"><strong>Your quote will appear here.</strong><p>Age above 57 requires referral.</p></div>
+      </div>
+    </section>
+
+    <section id="lift" class="section calculator-section">
+      <div class="section-heading">
+        <p class="eyebrow">Lift Liability</p>
+        <h2>Lift Liability Calculator</h2>
+        <p>Select the bodily injury and aggregate limit option.</p>
+      </div>
+      <div class="calculator-card">
+        <form id="liftForm" class="quote-form">
+          <div class="field"><label>Building / client name</label><input name="clientName" type="text" placeholder="Example: Building Name" /></div>
+          <div class="field"><label>Number of lifts</label><input name="lifts" type="number" min="1" value="1" required /></div>
+          <div class="field"><label>Limit option</label><select name="option"><option value="0">$10,000 any one claim / $60,000 aggregate - $60</option><option value="1">$20,000 any one claim / $100,000 aggregate - $100</option><option value="2">$25,000 any one claim / $100,000 aggregate - $125</option><option value="3">$50,000 any one claim / $100,000 aggregate - $150</option><option value="4">$30,000 any one claim / $150,000 aggregate - $250</option></select></div>
+          <button class="btn primary" type="submit">Calculate Lift Quote</button>
+        </form>
+        <div id="liftResult" class="result-box empty-state"><strong>Your quote will appear here.</strong><p>Premium is multiplied by the number of lifts.</p></div>
+      </div>
+    </section>
+
+
+    <section class="section confidence-section" aria-label="Quote support benefits">
+      <div class="section-heading centered">
+        <p class="eyebrow">Why request through Jalal</p>
+        <h2>Less confusion. Faster follow-up. Better quote requests.</h2>
+        <p>The tool gives an indicative price, then sends Jalal the details needed to move the case forward properly.</p>
+      </div>
+      <div class="confidence-grid">
+        <div class="confidence-card">
+          <span>⚡</span>
+          <h3>Faster first response</h3>
+          <p>Your WhatsApp message already includes the product, details, and estimated premium.</p>
+        </div>
+        <div class="confidence-card">
+          <span>🧾</span>
+          <h3>Cleaner documents</h3>
+          <p>The form highlights what information and documents may be needed before issuance.</p>
+        </div>
+        <div class="confidence-card">
+          <span>🤝</span>
+          <h3>Human confirmation</h3>
+          <p>Final issuance is still checked properly before binding cover or confirming a policy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="general" class="section general-section">
+      <div class="general-card">
+        <div>
+          <p class="eyebrow">Ready to proceed?</p>
+          <h2>Need a policy or a product not listed here?</h2>
+          <p>For Property+, Marine, Life, Special Risk, Cyber, Professional Indemnity, complex Workmen Compensation, or any underwriting case, send Jalal a manual quote request and get guided step by step.</p>
+        </div>
+        <a class="btn primary" id="generalWhatsapp" href="#">Request My Quote</a>
+      </div>
+    </section>
+
+    <section class="ad-slot wide bottom" aria-label="Advertisement placeholder">
+      <span>Advertisement Space</span>
+      <small>Future banner, sponsored placement, or Google AdSense area</small>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <strong>Jalal Insurance Broker</strong>
+        <p>WhatsApp: 00961 3 763181</p>
+        <p><a href="https://s.blinq.me/cmlzlb6xp0t7os60n2a0j8jrg" target="_blank" rel="noopener">Digital business card ↗</a></p>
+      </div>
+      <p class="disclaimer">Premiums shown are indicative and subject to underwriting approval, document verification, applicable policy terms, exclusions, inspection where required, medical declarations where required, and final confirmation before issuance. This page does not store submitted data.</p>
+    </div>
+  </footer>
+
+
+  <div class="sticky-quote-cta" aria-label="Quick quote call to action">
+    <div>
+      <strong>Need help choosing?</strong>
+      <span>Send Jalal a quick WhatsApp message.</span>
+    </div>
+    <a href="https://wa.me/9613763181?text=Hello%20Jalal%2C%20I%20need%20help%20choosing%20the%20right%20insurance%20quote." target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
